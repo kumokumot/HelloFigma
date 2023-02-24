@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colors.background
                 ) {
 //                    Greeting("Android")
-                    HelloCard()
+                    HelloCard(title = "タイトルです")
                 }
             }
         }
@@ -56,6 +56,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     HelloFigmaTheme {
-        HelloCard()
+        HelloCard(title = "仮のタイトル")
     }
 }

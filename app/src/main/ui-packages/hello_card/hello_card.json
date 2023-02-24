@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "ZjZhZRyR4NpUVRJ3tA84Ig",
     "node": "4:3",
-    "version": "3071455163",
+    "version": "3071487535",
     "component-id": "a1c4b3413c96e78023ea81f94cae1ce342a99609"
   },
   "default": "Hello Card",
@@ -78,7 +78,7 @@
               "saturation": "0.15625",
               "value": "0.12549019607843137"
             },
-            "text-content": "Hello World",
+            "text-content": "$Title",
             "overflow": "visible",
             "text-align": "left",
             "text-size": "24.0",
@@ -89,12 +89,22 @@
       }
     }
   },
+  "parameters": {
+    "Title": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
   "previews": [
     {
       "design": "Hello Card",
       "size": {
         "width": 248.0,
         "height": 201.0
+      },
+      "parameters": {
+        "Title": "Hello World"
       }
     }
   ],
