@@ -26,6 +26,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.hellofigma.hellocard.HelloCard
 import com.example.hellofigma.ui.theme.HelloFigmaTheme
 
 class MainActivity : ComponentActivity() {
@@ -38,7 +39,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+//                    Greeting("Android")
+                    HelloCard()
                 }
             }
         }
@@ -54,6 +56,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     HelloFigmaTheme {
-        Greeting("Android")
+        HelloCard()
     }
 }
